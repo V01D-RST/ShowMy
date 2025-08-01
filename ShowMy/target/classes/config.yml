@@ -1,0 +1,17 @@
+# Modules are the different pieces of information a player can see by running /showmy module
+modules:
+  example:
+    # The text that is shown to the player when running the /showmy module command. Supports PlaceholderAPI placeholders
+    text-to-show: 'This is an example!'
+    # The permission required to execute the command
+    permission: showmy.modules.example
+
+settings:
+  # Whether the plugin is disabled or not
+  disabled: false
+
+  # Whether debugging information should be logged to the console.
+  debug: false
+
+  # The message shown when a player executes a command without the required permission. Supports PlaceholderAPI placeholders
+  noPermissionMessage: 'You do not have permission to execute that command!'

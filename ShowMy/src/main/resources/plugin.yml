@@ -1,0 +1,31 @@
+name: ShowMy
+version: '0.1.0'
+main: me.bestrandomkiller.showMy.ShowMy
+api-version: '1.21'
+prefix: ShowMy
+load: STARTUP
+authors: [ BestRandomKiller ]
+description: ShowMy lets your players see useful info and stats about themselves in an easy and straightforward way
+depend: ["PlaceholderAPI"]
+commands:
+  showmy:
+    description: The main command for ShowMy
+    usage: "Usage: /<command> <module|reload>"
+    permission: showmy.use
+permissions:
+  showmy.use:
+    description: Allows you to use ShowMy's main command.
+    default: true
+  showmy.reload:
+    description: Allows you to reload ShowMy's configuration file without restarting the server.
+    default: op
+  showmy.modules.*:
+    description: Allows you to use every module even if you don't have the module's permission.
+    default: op
+  showmy.*:
+    description: Grants you every ShowMy permission.
+    default: op
+    children:
+      - showmy.use
+      - showmy.reload
+      - showmy.modules.*
