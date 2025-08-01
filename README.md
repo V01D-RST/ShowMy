@@ -1,6 +1,5 @@
 # ShowMy
 
-# Description
 **ShowMy** is a lightweight Minecraft plugin that lets players view personalized stats and information about themselves using natural, readable commands like:
 
 ```
