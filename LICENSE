@@ -1,47 +1,66 @@
-ShowMy Plugin License v1.0
+## ShowMy Plugin Source-Available License, Version 1.0 (SPSAL-1.0)
 
-Copyright (c) 2025 BestRandomKiller
+Copyright (c) 2025
+**BestRandomKiller**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to use,
-copy, modify, merge, publish, and distribute the Software, subject to the
-following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software. This includes any associated compiled binaries, source code, and documentation files (the “Software”), to use, copy, modify, merge, publish, and distribute the Software, subject to the following conditions:
 
-1. Non-Commercial Forking:
-   The Software, or any derivative or modified version of it, may not be sold,
-   licensed, rented, or otherwise used in a commercial context without the
-   express prior written permission of the copyright holder.
+---
 
-   Specifically:
-   - You may not charge money for this Software or any fork, derivative, or
-     recompiled version.
-   - You may not include this Software or derivatives behind a paywall or in
-     a paid plugin marketplace.
-   - You may not monetize this Software through ads, subscriptions, or other
-     commercial schemes.
+### 0. Definitions
 
-2. Allowable Use:
-   - Use on commercial Minecraft servers (e.g., monetized servers) is allowed,
-     as long as the Software itself is not monetized.
-   - You may include the Software in modpacks, server packs, or distributions
-     that are offered free of charge.
-   - You may fork, modify, and distribute the Software non-commercially under
-     the same terms.
+* **Software**: Refers to the plugin known as "ShowMy," including all associated source code, compiled binaries, configuration files, assets, and documentation.
+* **Author**: Refers to the original creator and copyright holder of the Software, identified as "BestRandomKiller."
+* **Fork**: A modified or derivative version of the Software created by copying and altering the original source code.
+* **Commercial Use**: Any use intended for or resulting in monetary gain, either directly or indirectly, including (but not limited to) selling, licensing, renting, paywalling, bundling with paid services, or monetizing through ads, sponsorships, or subscriptions.
+* **Non-Commercial Use**: Any use of the Software not resulting in monetary gain.
+* **Distribution Platform**: Any online platform through which the Software is made available, including but not limited to Modrinth or GitHub.
+* **Plugin Marketplace**: A platform where Minecraft plugins are listed, downloaded, or sold, such as SpigotMC, Modrinth, or CurseForge.
 
-3. Requesting Commercial Use:
-   Commercial use, including selling forks or derivatives of this Software,
-   requires explicit written permission from the copyright holder.
-   You may contact the author via the distribution platform (e.g., Modrinth)
-   or through the official plugin repository to request a commercial license.
+---
 
-4. Disclaimer:
-   THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
-   FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE, OR OTHER DEALINGS
-   IN THE SOFTWARE.
+### 1. Non-Commercial Use Only
 
-This license is not OSI-approved and is considered "source-available" but not
-"open source" under the Open Source Definition.
+You may use, copy, modify, and distribute the Software or derivative works, provided that the use is non-commercial in nature. This includes both public and private deployments; however, internal commercial use within a company or organization is considered commercial use and therefore restricted under this license.
+
+* The Software is **not sold, licensed, rented, or otherwise monetized**.
+* You **do not charge** any fees, subscriptions, or receive advertising revenue in connection with the Software.
+* You **do not include the Software behind paywalls** or in **commercial plugin marketplaces**.
+
+---
+
+### 2. Permitted Non-Commercial Use
+
+The following non-commercial uses are explicitly permitted:
+
+* **Use on monetized or commercial Minecraft servers**, provided the Software itself is **not monetized or pay-gated**.
+* Inclusion in **free modpacks, server packs**, or other **non-commercial distributions**.
+* Forking, modifying, and redistributing the Software **under this same license**, as long as all other terms are respected.
+
+---
+
+### 3. Commercial Use Licensing
+
+Any **commercial use** of the Software or derivative works, including but not limited to:
+
+* Selling the Software or forks,
+* Including it in paid products or services,
+* Distributing it on monetized platforms,
+
+Requires **prior written permission** from the Author, which may be granted via a signed license agreement, official email confirmation, or other verifiable written form.
+
+To request a commercial license, contact the Author via the Software's official distribution platform (e.g., Modrinth) or through the plugin repository.
+
+---
+
+### 4. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, and any rights granted under this license will immediately terminate if the license terms are violated, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+### 5. License Classification
+
+This license is **not approved by the Open Source Initiative (OSI)** and is **not compatible with the GNU General Public License (GPL)** or other OSI-approved licenses. Redistribution under other licenses is **not permitted**.
+
+This is a **source-available license**, not an open-source license, meaning that while the source code is accessible and modifiable, it does not grant all the freedoms typically associated with OSI-approved open-source licenses, such as the right to use it commercially or relicense under different terms.
