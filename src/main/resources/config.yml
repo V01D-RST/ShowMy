@@ -1,0 +1,25 @@
+# Modules are the different pieces of information a player can see by running /showmy module
+# Forbidden module names include 'reload' and 'list'
+modules:
+  example:
+    # The text that is shown to the player when running the /showmy module command. Supports PlaceholderAPI placeholders
+    text-to-show: 'This is an example!'
+    # The permission required to execute the command
+    permission: showmy.modules.example
+
+settings:
+  # Whether the plugin is disabled or not
+  disabled: false
+
+  # The message shown when the plugin is disabled and someone attempts to run a command. Supports PlaceholderAPI placeholders
+  # Leave blank to not show any message
+  disabledMessage: 'The plugin is disabled!'
+
+  # Whether debugging information should be logged to the console.
+  debug: false
+
+  # The message shown when a player executes a command without the required permission. Supports PlaceholderAPI placeholders
+  noPermissionMessage: 'You do not have permission to execute that command!'
+
+  # Whether to allow the collection of anonymous data for improving the project through bstats (https://bstats.org)
+  allowTelemetry: true
